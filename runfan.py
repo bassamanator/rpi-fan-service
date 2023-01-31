@@ -5,7 +5,7 @@ import time
 import RPi.GPIO as GPIO
 
 GPIO.setwarnings(False)
-st = 5 # How often to poll temp
+checkInterval = 30 # How often to poll temp
 pin = 24 # The pin ID, edit here to change it
 ledPin = 21 # Pin to turn on LED
 maxTMP = 65 # The high temperature in Celsius which will trigger the fan on
@@ -35,6 +35,6 @@ def getTEMP():
 try:
     while True:
         getTEMP()
-        time.sleep(st) # Read the temperature every 5 sec, increase or decrease this limit if you want
+        time.sleep(checkInterval)
 except KeyboardInterrupt: # trap a CTRL+C keyboard interrupt 
     GPIO.cleanup() # resets all GPIO ports used by this program
