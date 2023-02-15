@@ -8,14 +8,14 @@ Transistor used:
 Step 1
 
 ```
-sudo cp runfan.py /usr/local/bin/runfan.py
+sudo cp ~/rpi-fan-service/runfan.py /usr/local/bin/runfan.py
 sudo chmod +x /usr/local/bin/runfan.py
 ```
 
 Step 2
 
 ```
-sudo cp runfan.service /lib/systemd/system/runfan.service
+sudo cp ~/rpi-fan-service/runfan.service /lib/systemd/system/runfan.service
 sudo chmod 644 /lib/systemd/system/runfan.service
 ```
 
