@@ -1,5 +1,6 @@
 Transistor used:
 
+- [E-Projects A-0004-J04f - S8050 - S8050D - General Purpose Transistor - NPN - TO-92 ](https://www.amazon.ca/gp/product/B07YN7HVPN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - S8050
 - NPN
 - TO-92
