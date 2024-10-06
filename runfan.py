@@ -9,7 +9,7 @@ checkInterval = 30  # How often to poll temp
 fanPin = 16  # The pin ID, edit here to change it
 ledPin = 21  # Pin to turn on LED
 maxTMP = 65  # The high temperature in Celsius which will trigger the fan on
-minTMP = 45  # The low temperature in Celsius which will trigger fan off
+minTMP = 50  # The low temperature in Celsius which will trigger fan off
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(fanPin, GPIO.OUT)
